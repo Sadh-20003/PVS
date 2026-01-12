@@ -407,75 +407,9 @@ export default function Home() {
       {/* ================= WHY CHOOSE US SECTION END ================= */}
 
 
-      {/* ================= PRICING SECTION  ================= */}
 
-      <section className="pricing-section">
-        <div className="container">
 
-          <span className="pricing-tag">Pricing</span>
-          <h2 className="pricing-title">
-            Simple & Transparent Pricing Plans
-          </h2>
-          <p className="pricing-subtitle">
-            Choose the right plan for your business compliance and growth needs.
-          </p>
 
-          <div className="pricing-grid">
-
-            {/* BASIC */}
-            <div className="pricing-card">
-              <h3>Starter</h3>
-              <p className="price">₹4,999</p>
-              <p className="price-note">One-time</p>
-
-              <ul>
-                <li>Business Registration</li>
-                <li>Basic GST Setup</li>
-                <li>Email Support</li>
-              </ul>
-
-              <button className="pricing-btn">Get Started</button>
-            </div>
-
-            {/* POPULAR */}
-            <div className="pricing-card featured">
-              <span className="badge">Most Popular</span>
-
-              <h3>Growth</h3>
-              <p className="price">₹9,999</p>
-              <p className="price-note">Per Year</p>
-
-              <ul>
-                <li>GST Filing (Annual)</li>
-                <li>Income Tax Filing</li>
-                <li>Compliance Monitoring</li>
-                <li>Priority Support</li>
-              </ul>
-
-              <button className="pricing-btn primary">Choose Plan</button>
-            </div>
-
-            {/* PREMIUM */}
-            <div className="pricing-card">
-              <h3>Enterprise</h3>
-              <p className="price">₹19,999</p>
-              <p className="price-note">Per Year</p>
-
-              <ul>
-                <li>All Compliance Services</li>
-                <li>Dedicated Consultant</li>
-                <li>Monthly Reporting</li>
-                <li>24/7 Support</li>
-              </ul>
-
-              <button className="pricing-btn">Contact Us</button>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      {/* ================= PRICING SECTION END ================= */}
 
       {/* ================= LEAD FORM SECTION  ================= */}
       <section className="lead-form-section">
