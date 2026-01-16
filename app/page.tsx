@@ -24,7 +24,7 @@ export default function Home() {
             <a href="#">About Us</a>
             <a href="#">Our Services</a>
             <a href="#">Why choose us</a>
-            <a href="#">Forms</a>
+            <a href="#">Conatct us</a>
 
           </nav>
 
@@ -332,7 +332,7 @@ export default function Home() {
       <section className="why-section">
         <div className="why-container">
 
-          <span className="why-badge">Why Choose Us</span>
+
 
           <h2 className="why-title">
             We deliver expertise you can trust <br />
