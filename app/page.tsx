@@ -22,11 +22,10 @@ export default function Home() {
           <nav className="nav-links">
             <a className="active" href="#">Home</a>
             <a href="#">About Us</a>
-            <a href="#">Services</a>
-            <a href="#">Projects</a>
-            <a href="#">Blog</a>
-            <a href="#">Shop</a>
-            <a href="#">Contact</a>
+            <a href="#">Our Services</a>
+            <a href="#">Why choose us</a>
+            <a href="#">Forms</a>
+
           </nav>
 
           {/* RIGHT */}
@@ -112,9 +111,7 @@ export default function Home() {
               <div>✔ Long-Term Business Partnerships</div>
             </div>
 
-            <button className="about-btn">
-              Learn More About Us
-            </button>
+
           </div>
 
         </div>
@@ -144,7 +141,7 @@ export default function Home() {
 
             {/* CARD 1 */}
             <div className="service-card">
-              <div className="service-icon">🧠</div>
+              <div className="service-icon"><i className="fa-solid fa-certificate"></i> </div>
               <h3>MSME CERTIFICATE</h3>
               <p>
                 Get your MSME Certificate to enjoy government benefits and business growth opportunities.
@@ -157,7 +154,8 @@ export default function Home() {
 
             {/* CARD 2 */}
             <div className="service-card">
-              <div className="service-icon">📊</div>
+              <div className="service-icon"><i className="fa-solid fa-utensils"></i>
+              </div>
               <h3>FSSAI REGISTRATION</h3>
               <p>
                 Obtain your FSSAI Registration to legally start and grow your food business.
@@ -170,7 +168,8 @@ export default function Home() {
 
             {/* CARD 3 */}
             <div className="service-card">
-              <div className="service-icon">🧩</div>
+              <div className="service-icon"><i className="fa-solid fa-building"></i>
+              </div>
               <h3>COMPANY INCORPORATION</h3>
               <p>
                 Obtain your FSSAI Registration to legally start and grow your food business.
@@ -183,7 +182,8 @@ export default function Home() {
 
             {/* CARD 4 */}
             <div className="service-card">
-              <div className="service-icon">⚙️</div>
+              <div className="service-icon"><i className="fa-solid fa-clipboard-check"></i>
+              </div>
               <h3>COMPANY YEAR END COMPILANCE</h3>
               <p>
                 Company Incorporation helps you start strong with credibility and compliance.
@@ -201,7 +201,8 @@ export default function Home() {
 
             {/* CARD 1 */}
             <div className="service-card">
-              <div className="service-icon">🧠</div>
+              <div className="service-icon"><i className="fa-solid fa-briefcase"></i>
+              </div>
               <h3>FIRM REGISTRATION</h3>
               <p>
                 Firm Registration gives your business official recognition and credibility.
@@ -214,7 +215,8 @@ export default function Home() {
 
             {/* CARD 2 */}
             <div className="service-card">
-              <div className="service-icon">📊</div>
+              <div className="service-icon"><i className="fa-solid fa-people-roof"></i>
+              </div>
               <h3>TRUST, SOCIETY, ASSOCIATION REGIST</h3>
               <p>
                 Register your Trust, Society, or Association to gain legal recognition and credibility.
@@ -227,7 +229,8 @@ export default function Home() {
 
             {/* CARD 3 */}
             <div className="service-card">
-              <div className="service-icon">🧩</div>
+              <div className="service-icon"><i className="fa-solid fa-hand-holding-heart"></i>
+              </div>
               <h3>TRUST 80G, 12AA, CERTIFICATE</h3>
               <p>
                 Get 80G & 12AA certificates to help your Trust or NGO avail tax benefits and attract donations.
@@ -240,7 +243,8 @@ export default function Home() {
 
             {/* CARD 4 */}
             <div className="service-card">
-              <div className="service-icon">⚙️</div>
+              <div className="service-icon"><i className="fa-solid fa-fingerprint"></i>
+              </div>
               <h3>DIGITAL SIGNATURE CERTIFICATE</h3>
               <p>
                 Complete statutory compliance, filings,
@@ -259,7 +263,8 @@ export default function Home() {
 
             {/* CARD 1 */}
             <div className="service-card">
-              <div className="service-icon">🧠</div>
+              <div className="service-icon"><i className="fa-solid fa-file-invoice-dollar"></i>
+              </div>
               <h3>INCOME TAX FILLING</h3>
               <p>
                 File your Income Tax accurately and on time with our expert assistance.
@@ -272,7 +277,8 @@ export default function Home() {
 
             {/* CARD 2 */}
             <div className="service-card">
-              <div className="service-icon">📊</div>
+              <div className="service-icon"><i className="fa-solid fa-receipt"></i>
+              </div>
               <h3>GST REGISTRATION</h3>
               <p>
                 Expand your business with hassle-free GST Registration services.
@@ -285,7 +291,8 @@ export default function Home() {
 
             {/* CARD 3 */}
             <div className="service-card">
-              <div className="service-icon">🧩</div>
+              <div className="service-icon"><i className="fa-solid fa-chart-line"></i>
+              </div>
               <h3>LOAN PROJECTION</h3>
               <p>
                 Get accurate loan projections to secure funding for your business growth.
@@ -298,7 +305,8 @@ export default function Home() {
 
             {/* CARD 4 */}
             <div className="service-card">
-              <div className="service-icon">⚙️</div>
+              <div className="service-icon"><i className="fa-solid fa-user-shield"></i>
+              </div>
               <h3>PF & ESI CLAIM</h3>
               <p>
                 Get hassle-free support for PF withdrawals and ESI benefits.
@@ -480,9 +488,15 @@ export default function Home() {
             <h4>Company</h4>
             <a href="#">About Us</a>
             <a href="#">Why Choose Us</a>
-            <a href="#">Careers</a>
-            <a href="#">Contact</a>
+
+            <h4>Contact</h4>
+            <a href="#">Ph:
+              8270564998</a>
+            <a href="#">email : business@nicknameinfotech.com</a>
+
           </div>
+
+
 
           <div className="footer-links">
             <h4>Services</h4>
