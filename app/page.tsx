@@ -128,7 +128,7 @@ export default function Home() {
         <div className="service-container">
 
           <div className="section-heading-center">
-            <span className="section-pill">Our Services</span>
+            <span className="section-pill-1">Our Services</span>
 
             <h2 className="section-title">
               Empower your business <br />
@@ -214,18 +214,7 @@ export default function Home() {
             </div>
 
             {/* CARD 2 */}
-            <div className="service-card">
-              <div className="service-icon"><i className="fa-solid fa-people-roof"></i>
-              </div>
-              <h3>TRUST, SOCIETY, ASSOCIATION REGIST</h3>
-              <p>
-                Register your Trust, Society, or Association to gain legal recognition and credibility.
-              </p>
-              <div className="service-footer">
-                <span className="service-num">06</span>
-                <button className="arrow-btn">↗</button>
-              </div>
-            </div>
+
 
             {/* CARD 3 */}
             <div className="service-card">
@@ -256,12 +245,6 @@ export default function Home() {
               </div>
             </div>
 
-          </div>
-
-
-          <div className="service-grid py-5">
-
-            {/* CARD 1 */}
             <div className="service-card">
               <div className="service-icon"><i className="fa-solid fa-file-invoice-dollar"></i>
               </div>
@@ -274,6 +257,14 @@ export default function Home() {
                 <button className="arrow-btn">↗</button>
               </div>
             </div>
+
+          </div>
+
+
+          <div className="service-grid py-5">
+
+            {/* CARD 1 */}
+
 
             {/* CARD 2 */}
             <div className="service-card">
@@ -331,8 +322,7 @@ export default function Home() {
 
       <section className="why-section">
         <div className="why-container">
-
-
+          <span className="section-pill-1">Why Choose Us</span>
 
           <h2 className="why-title">
             We deliver expertise you can trust <br />
